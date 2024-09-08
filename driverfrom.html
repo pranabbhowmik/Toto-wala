@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/tukai-removebg-preview.png" type="image/x-icon">
+    <title>Toto Driver Registration</title>
+</head>
+<body class="bg-white text-white">
+
+    <div class="container mx-auto mt-10 p-8 bg-white rounded-lg shadow-lg max-w-md">
+        <h2 class="text-2xl text-black font-bold text-center mb-6">Toto Driver Registration</h2>
+
+        <!-- Profile Picture -->
+        <div class="flex justify-center items-center mb-6">
+            <label for="profilePic" class="cursor-pointer">
+                <div class="relative">
+                    <input type="file" id="profilePic" name="profilePic" accept="image/*" class="hidden">
+                    <img src="https://www.citypng.com/public/uploads/small/116395943260tji5ordfujy44njydzhlidv8reqpmtun7ggx1oszpz1dcistzxnmag7do6vxkjxphlsgueuurkg9pkpbwgorvv9lratpxm38rp5.png" class="w-20 h-20 rounded-full border-2 border-white">
+                    <div class="absolute inset-0  items-center justify-center bg-black bg-opacity-50 rounded-full hidden" id="changeProfilePicOverlay">
+                        <span class="text-white text-sm">Change</span>
+                    </div>
+                </div>
+            </label>
+        </div>
+
+        <!-- Name -->
+        <div class="mb-4">
+            <label for="name" class="block text-sm font-medium text-gray-600">Your Name:</label>
+            <input type="text" id="name" name="name" class="mt-1 p-2 w-full border border-gray-500 rounded">
+        </div>
+
+        <!-- Gmail -->
+        <div class="mb-4">
+            <label for="gmail" class="block text-sm font-medium text-gray-600">Gmail:</label>
+            <input type="email" id="gmail" name="gmail" class="mt-1 p-2 w-full border border-gray-500 rounded">
+        </div>
+
+        <!-- Phone Number -->
+        <div class="mb-4">
+            <label for="phoneNumber" class="block text-sm font-medium text-gray-600">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" class="mt-1 p-2 w-full border border-gray-500 rounded">
+        </div>
+
+        <!-- Pin Code -->
+        <div class="mb-4">
+            <label for="pinCode" class="block text-sm font-medium text-gray-600">Pin Code:</label>
+            <input type="text" id="pinCode" name="pinCode" class="mt-1 p-2 w-full border border-gray-500 rounded">
+        </div>
+
+        <!-- District -->
+        <div class="mb-4">
+            <label for="district" class="block text-sm font-medium text-gray-600">District:</label>
+            <input type="text" id="district" name="district" class="mt-1 p-2 w-full border border-gray-500 rounded">
+        </div>
+
+        <!-- Police Station -->
+        <div class="mb-6">
+            <label for="policeStation" class="block text-sm font-medium text-gray-600">Police Station:</label>
+            <input type="text" id="policeStation" name="policeStation" class="mt-1 p-2 w-full border border-gray-500 rounded">
+        </div>
+
+        <!-- Submit Button -->
+        <div class="flex justify-center">
+            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue">
+                Register
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>

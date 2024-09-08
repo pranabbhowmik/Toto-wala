@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/output.css">
+  <script src="https://kit.fontawesome.com/15b5d66310.js" crossorigin="anonymous"></script>
+  <style>
+    /* Add this style to set the background color */
+    #nav-menu {
+      background-color: yellow;
+    }
+  </style>
+</head>
+
+<title>About us</title>
+
+<body>
+  <header>
+    <nav class="bg-white h-20 border-gray-200 dark:bg-tuku-300">
+      <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto -mt-4 p-4">
+        <a href="index.html" class="flex items-start space-x-3 rtl:space-x-reverse">
+          <img src="/img/logo.jpeg" class=" w-20" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-bold font-serif  whitespace-nowrap dark:text-black">Totowala</span>
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button" id="hamberbar"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-tuku-300 dark:text-gray-400 dark:hover:bg-yellow-400 dark:focus:ring-gray-600"
+          aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+        <div class="hidden w-full md:flex md:w-auto mx-auto items-center" id="nav-menu">
+          <ul
+            class="font-medium flex text-center flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-tuku-300 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-tuku-300 md:dark:bg-tuku-300 text-black dark:border-gray-700">
+            <li>
+              <a href="/index.html"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 hover:underline dark:hover:bg-tuku-300 font-bold "
+                aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="/delivery.html"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:hover:underline dark:hover:bg-tuku-300 font-bold ">Delivery</a>
+            </li>
+            <li>
+              <a href="#"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:hover:underline dark:hover:bg-tuku-300 font-bold ">Toto
+                Store</a>
+            </li>
+            <li>
+              <a href="/about.html"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:hover:underline dark:hover:bg-tuku-300 font-bold ">About Us</a>
+            </li>
+            <li>
+              <a href="/ride.html"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:hover:underline dark:hover:bg-tuku-300 font-bold ">Ride</a>
+            </li>
+            <li>
+              <a href="/contact.html"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:hover:underline dark:hover:bg-tuku-300 font-bold ">Contact</a>
+            </li>
+            <li>
+              <a href="/booknow.html"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:hover:underline dark:hover:bg-tuku-300 font-bold ">Book now</a>
+            </li>
+            <li>
+              <a href="/help.html"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:hover:underline dark:hover:bg-tuku-300 font-bold ">Help</a>
+            </li>
+            <li>
+              <a href="/help.html"
+                class="nav__link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:hover:underline dark:hover:bg-tuku-300 font-bold ">Blog</a>
+            </li>
+            <div class="flex md:ml-52 sm:ml-20 gap-2 ">
+              <a href="/login.html" target="_blank">
+                <button
+                  class="hover:bg-yellow-300 rounded-3xl   w-20.5 px-6 flex py-1.5  shadow-lg  shadow-sky-500/50  font-bold  bg-yellow-500 ...">
+                  Log In
+                </button>
+              </a>
+              <a href="/signup.html" target="_blank">
+                <button
+                  class="hover:bg-yellow-300 rounded-3xl  flex  w-24 px-4 py-1.5 shadow-lg  shadow-sky-500/50 font-bold  bg-yellow-500">
+                  Sign Up
+                </button>
+              </a>
+            </div>
+            
+          </ul>
+         
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+  
+  <script>
+    const hambarger = document.getElementById('hamberbar');
+const navmenu = document.getElementById('nav-menu');
+const navlink = document.querySelectorAll('.nav__link');
+navlink.forEach(link =>
+   link.addEventListener("click",() => {
+    navmenu.classList.add('hidden');
+   })
+    )
+    hambarger.addEventListener("click",()=>{
+    navmenu.classList.remove('hidden');
+})
+
+  </script>
+
+
+
+</body>
+
+</html>
